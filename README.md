@@ -1,11 +1,14 @@
-# AE-1.20-UI Multi-module adaptation
+# AE-1.21-UI Multi-module adaptation
 
 🌐 **Language / 语言**
 - [![English](https://img.shields.io/badge/lang-en-blue.svg)](docs/en/README.md)
 - [![中文](https://img.shields.io/badge/lang-zh--CN-red.svg)](docs/zh-CN/README.md)
 ---
 
-An Applied Energistics-style UI resource pack adapted for Minecraft 1.20, providing a unified AE-style interface for multiple mods while optimizing the text and texture display effects of the UI, including certain text and texture corrections.
+**⚠️ Disclaimer:** This is a direct port of the AE-1.20-UI resource pack to Minecraft 1.21. It was bluntly ported from 1.20 and compatibility issues might exist.
+Special thanks to the original author **LeeQianXi** for their amazing work! Check out the original repository: [LeeQianXi/AE-1.20-UI](https://github.com/LeeQianXi/AE-1.20-UI).
+
+An Applied Energistics-style UI resource pack adapted for Minecraft 1.21, providing a unified AE-style interface for multiple mods while optimizing the text and texture display effects of the UI, including certain text and texture corrections.
 
 We have added AE-style UIs for a large number of mods, available in both light and dark versions, such as:
 - **Farmer's Delight**
@@ -14,7 +17,7 @@ We have added AE-style UIs for a large number of mods, available in both light a
 - ……UIs for other mods are currently in the pipeline.
 
 ## Versions
-- Supports Minecraft 1.20
+- Supports Minecraft 1.21
 - Light & Dark variants included
 
 ## Core Features
@@ -33,8 +36,8 @@ We have added AE-style UIs for a large number of mods, available in both light a
 1. **Obtain the Resource Pack**
    You can directly download the latest version of the resource pack from the Releases page of the repository, or clone the repository and package it locally:
     ```bash
-    git clone https://github.com/LeeQianXi/AE-1.20-UI.git
-    cd ./AE-1.20-UI/scripts
+    git clone https://github.com/LeeQianXi/AE-1.21-UI.git
+    cd ./AE-1.21-UI/scripts
     bash pack.sh
     cd ../pack/
     ```
@@ -53,7 +56,7 @@ Currently adapted mods include:
 
 ## Directory Structure Description
 ```Plain
-AE-1.20-UI/
+AE-1.21-UI/
 ├── docs/              # Repository documentation
 ├── LightMode/         # Light theme UI resources, containing all interface textures and configurations under this theme
 ├── DarkMode/          # Dark theme UI resources, containing all interface textures and configurations under this theme
@@ -69,7 +72,7 @@ AE-1.20-UI/
 ## Notes
 1. This resource pack needs to be placed at the top of the resource pack list, otherwise its UI effects may be overwritten by other resource packs
 2. This resource pack is incompatible with other AE-style UI resource packs, please disable other UI resource packs of the same type when using
-3. Only supports Minecraft 1.20.x series versions, not compatible with other versions of the Minecraft client
+3. Only supports Minecraft 1.21.x series versions, not compatible with other versions of the Minecraft client
 
 ## Contribution
 If you want to participate in the development of this project, adapt AE-style UIs for more mods, or feedback UI display issues, you are welcome to participate through the following ways:
