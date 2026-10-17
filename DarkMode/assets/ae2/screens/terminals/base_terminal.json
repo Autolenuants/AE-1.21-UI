@@ -3,54 +3,29 @@
   "includes": [
     "../common/common.json",
     "../common/player_inventory.json",
-    "../common/terminal_switch_toolbox.json"
+    "../common/terminal_toolbox.json"
   ],
   "terminalStyle": {
     "slotsPerRow": 9,
     "header": {
       "texture": "guis/terminal.png",
-      "srcRect": [
-        0,
-        0,
-        195,
-        17
-      ]
+      "srcRect": [0, 0, 195, 17]
     },
     "firstRow": {
       "texture": "guis/terminal.png",
-      "srcRect": [
-        0,
-        17,
-        195,
-        18
-      ]
+      "srcRect": [0, 17, 195, 18]
     },
     "row": {
       "texture": "guis/terminal.png",
-      "srcRect": [
-        0,
-        35,
-        195,
-        18
-      ]
+      "srcRect": [0, 35, 195, 18]
     },
     "lastRow": {
       "texture": "guis/terminal.png",
-      "srcRect": [
-        0,
-        53,
-        195,
-        18
-      ]
+      "srcRect": [0, 53, 195, 18]
     },
     "bottom": {
       "texture": "guis/terminal.png",
-      "srcRect": [
-        0,
-        71,
-        195,
-        99
-      ]
+      "srcRect": [0, 71, 195, 99]
     }
   },
   "text": {
@@ -77,8 +52,8 @@
       "height": 20
     },
     "viewCells": {
-      "right": -2,
-      "top": -2
+      "right": 800,
+      "top": 0
     },
     "search": {
       "left": 80,

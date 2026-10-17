@@ -81,52 +81,13 @@
       "bottom": 158,
       "height": 52
     },
+    "processingCycleOutput": {
+      "left": 98,
+      "bottom": 159
+    },
     "processingClearPattern": {
       "left": 79,
       "bottom": 159
-    },
-    "recipeInfo": {
-      "left": 88,
-      "bottom": 159
-    },
-    "processingCycleOutput": {
-      "des":"Cycle",
-      "left": 127,
-      "bottom": 163
-    },
-    "modify1": {
-      "des":"x2",
-      "left": 127,
-      "bottom": 152
-    },
-    "modify2": {
-      "des":"x3",
-      "left": 127,
-      "bottom": 141
-    },
-    "modify3": {
-      "des":"x5",
-      "left": 127,
-      "bottom": 130
-    },
-    "modify4": {
-      "des":"/2",
-      "left": 100,
-      "bottom": 152
-    },
-    "modify5": {
-      "des":"/3",
-      "left": 100,
-      "bottom": 141
-    },
-    "modify6": {
-      "des":"/5",
-      "left": 100,
-      "bottom": 130
-    },
-    "clearSecOutput": {
-      "left": 127,
-      "bottom": 119
     }
   }
 }

@@ -27,8 +27,10 @@
   },
   "widgets": {
     "back": {
-      "right": 22,
-      "top": 0
+      "left": 176,
+      "top": -5,
+      "width": 20,
+      "height": 20
     },
     "pinAutoCraftedItemsCheckbox": {
       "left": 10,
@@ -57,32 +59,27 @@
     },
     "searchTooltipsCheckbox": {
       "left": 10,
-      "top": 128,
+      "top": 144,
       "width": 150
     },
     "rememberCheckbox": {
       "left": 10,
-      "top": 144,
+      "top": 160,
       "width": 150
     },
     "autoFocusCheckbox": {
       "left": 10,
-      "top": 160,
-      "width": 150
-    },
-    "syncWithExternalCheckbox": {
-      "left": 10,
       "top": 176,
       "width": 150
     },
-    "exposeInventoryExternalCheckbox": {
+    "syncWithExternalCheckbox": {
       "left": 10,
       "top": 192,
       "width": 150
     },
     "clearExternalCheckbox": {
       "left": 10,
-      "top": 144,
+      "top": 160,
       "width": 150
     }
   }

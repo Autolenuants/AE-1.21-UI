@@ -1,8 +1,6 @@
 {
   "$schema": "../schema.json",
-  "includes": [
-    "terminal.json"
-  ],
+  "includes": ["terminal.json"],
   "helpTopic": "items-blocks-machines/terminals.md#crafting-terminal-ui",
   "slots": {
     "CRAFTING_GRID": {

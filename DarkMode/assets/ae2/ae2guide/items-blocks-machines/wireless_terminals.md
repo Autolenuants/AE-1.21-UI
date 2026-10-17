@@ -8,12 +8,16 @@ categories:
 - tools
 item_ids:
 - ae2:wireless_terminal
+- ae2:wireless_crafting_terminal
 ---
 
-# Wireless Terminal
+# Wireless Terminals
 
-<ItemImage id="wireless_terminal" scale="4" />
+<Row>
+  <ItemImage id="wireless_terminal" scale="4" />
 
+  <ItemImage id="wireless_crafting_terminal" scale="4" />
+</Row>
 
 Wireless terminals are portable versions of the regular wired [terminals](terminals.md). They have the exact same UIs as their
 wired counterparts, except instead of slots for <ItemLink id="view_cell" />s, they have slots for [upgrade cards](upgrade_cards.md)
@@ -35,7 +39,7 @@ and request things from your [autocrafting](../ae2-mechanics/autocrafting.md) se
 
 ## The UI
 
-See [Terminals](terminals.md)
+See [terminals](terminals.md)
 
 ## Upgrades
 
@@ -51,5 +55,19 @@ The Wireless Terminal supports the following [upgrades](upgrade_cards.md):
 
 <ItemImage id="wireless_crafting_terminal" scale="4" />
 
-[AE2WTLib](ae2wtlib:ae2wtlib/ae2wtlib-index.md) modifies the <ItemLink id="ae2:wireless_crafting_terminal" />.
-It is documented on a [different page](ae2wtlib:ae2wtlib/wireless_crafting_terminal.md) now.
+The Wireless Crafting Terminal is similar to a regular wireless terminal, with all the same settings and sections, but with an added crafting grid that will be automatically
+refilled from [network storage](../ae2-mechanics/import-export-storage.md). Be careful when shift-clicking the output!
+
+## The UI
+
+See [terminals](terminals.md)
+
+## Upgrades
+
+The Wireless Crafting Terminal supports the following [upgrades](upgrade_cards.md):
+
+*   <ItemLink id="energy_card" /> in order to increase the battery capacity
+
+## Recipe
+
+<RecipeFor id="wireless_crafting_terminal" />

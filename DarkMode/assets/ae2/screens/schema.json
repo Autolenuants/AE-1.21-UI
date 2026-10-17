@@ -362,7 +362,6 @@
           "STORAGE_CELL",
           "INSCRIBER_PLATE_TOP",
           "INSCRIBER_PLATE_BOTTOM",
-          "AAE_ARMOR",
           "MACHINE_INPUT",
           "MACHINE_PROCESSING",
           "MACHINE_OUTPUT",
@@ -372,22 +371,14 @@
           "VIEW_CELL",
           "CRAFTING_GRID",
           "CRAFTING_RESULT",
-          "PROCESSING_PRIMARY_RESULT",
-          "PROCESSING_FIRST_OPTIONAL_RESULT",
-          "PROCESSING_SECOND_OPTIONAL_RESULT",
-          "BIOMETRIC_CARD",
-          "READONLY_STACKS",
-          "AE2WTLIB_HELMET",
-          "AE2WTLIB_CHESTPLATE",
-          "AE2WTLIB_LEGGINGS",
-          "AE2WTLIB_BOOTS",
-          "AE2WTLIB_OFFHAND",
-          "AE2WTLIB_TRASH",
-          "AE2WTLIB_MAGNET_CARD",
-          "AE2WTLIB_INFINITY_BOOSTER_CARD",
-          "AE2WTLIB_PICKUP_CONFIG",
-          "AE2WTLIB_INSERT_CONFIG",
-          "AE2WTLIB_SINGULARITY"
+          "PROCESSING_INPUTS",
+          "PROCESSING_OUTPUTS",
+          "SMITHING_TABLE_TEMPLATE",
+          "SMITHING_TABLE_BASE",
+          "SMITHING_TABLE_ADDITION",
+          "SMITHING_TABLE_RESULT",
+          "STONECUTTING_INPUT",
+          "MISSING_INGREDIENT"
         ]
       }
     },
@@ -412,10 +403,6 @@
           },
           "position": {
             "$ref": "#/definitions/position"
-          },
-          "centerHorizontally": {
-            "type": "boolean",
-            "default": false
           },
           "scale": {
             "type": "number",
@@ -511,10 +498,6 @@
           "description": "The number of slots per row on the background image.",
           "type": "integer",
           "minimum": 1
-        },
-        "searchFieldRect": {
-          "description": "The bounding box of the search field in the background.",
-          "$ref": "#/definitions/rect"
         },
         "sortable": {
           "description": "Defines if this terminal has a sort by button.",

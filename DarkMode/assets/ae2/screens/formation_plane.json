@@ -3,11 +3,11 @@
   "includes": [
     "common/common.json",
     "common/player_inventory.json",
-    "common/switch_toolbox.json"
+    "common/toolbox.json"
   ],
   "background": {
     "texture": "guis/storagebus.png",
-    "srcRect": [0, 0, 176, 251]
+    "srcRect": [0, 0, 176, 253]
   },
   "slots": {
     "CONFIG": {
