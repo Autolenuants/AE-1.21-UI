@@ -1,6 +1,9 @@
-# AE-1.20-UI 多模组适配
+# AE-1.21-UI 多模组适配
 
-适配 Minecraft 1.20 版本的 Applied Energistics 风格 UI 材质包，为多模组提供统一的 AE 风格界面，同时优化 UI 的文本与贴图显示效果。
+**⚠️ 免责声明：** 这是一个将 AE-1.20-UI 材质包生搬硬套到 Minecraft 1.21 版本的直接移植版。由于是从 1.20 生搬硬套上来的，可能存在兼容性问题。
+特别感谢原作者 **LeeQianXi** 的精彩工作！请查看原仓库：[LeeQianXi/AE-1.20-UI](https://github.com/LeeQianXi/AE-1.20-UI)。
+
+适配 Minecraft 1.21 版本的 Applied Energistics 风格 UI 材质包，为多模组提供统一的 AE 风格界面，同时优化 UI 的文本与贴图显示效果。
 
 我们为大量模组添加了 AE 风格的 UI，分亮色和暗色 2 个版本，例如：
 - **农夫乐事** (Farmer's Delight)
@@ -9,7 +12,7 @@
 - ……其他模组的 UI 正在加紧制作中。
 
 ## 版本
-- 支持 Minecraft 1.20
+- 支持 Minecraft 1.21
 - 亮色/暗色双版本
 
 ## 核心特性
@@ -28,8 +31,8 @@
 1. **获取资源包**
    可以直接从仓库的 Releases 页面下载最新版本的材质包，或克隆仓库本地自行打包：
     ```bash
-    git clone https://github.com/LeeQianXi/AE-1.20-UI.git
-    cd ./AE-1.20-UI/scripts
+    git clone https://github.com/LeeQianXi/AE-1.21-UI.git
+    cd ./AE-1.21-UI/scripts
     bash pack.sh
     cd ../pack/
     ```
@@ -47,7 +50,7 @@
 
 ## 目录结构说明
 ```Plain
-AE-1.20-UI/
+AE-1.21-UI/
 ├── docs/              # 仓库文档
 ├── LightMode/         # 亮色主题UI资源，包含该主题下的所有界面贴图与配置
 ├── DarkMode/          # 暗色主题UI资源，包含该主题下的所有界面贴图与配置
@@ -63,7 +66,7 @@ AE-1.20-UI/
 ## 注意事项
 1. 本材质包需要放在资源包列表的最上方，否则其 UI 效果可能会被其他资源包覆盖
 2. 本材质包与其他 AE 风格的 UI 材质包不兼容，使用时请禁用其他同类型的 UI 材质包
-3. 仅支持 Minecraft 1.20.x 系列版本，不兼容其他版本的 Minecraft 客户端
+3. 仅支持 Minecraft 1.21.x 系列版本，不兼容其他版本的 Minecraft 客户端
 
 ## 贡献
 如果你想要参与本项目的开发，为更多模组适配 AE 风格 UI，或反馈 UI 的显示问题，欢迎通过以下方式参与：
